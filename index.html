@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- barra de navegacion -->
+
+<div class="barra">
+        <div class="logo">
+            <a href="#"><img src="src/img/22.png" alt="logo"></a>
+
+        </div>
+        <div class="input-group input">
+
+                <span class="input-group-text border-0 lupa">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>
+                </span>
+
+                <input type="text" aria-label="First name" class="form-control border-0 border-start">
+
+        </div>
+        <nav class="menú">
+            <ul>
+                <li><a href="#">Comprar</a> </li>
+                <li><a href="#">Vender</a> </li>
+                <li><a href="#">Deliverys</a> </li>
+                <li><a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#401616" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="19" r="2" />
+                        <circle cx="17" cy="19" r="2" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                      </svg>
+                    </a> 
+                </li>
+            </ul>
+        </nav>
+
+</div>
+
+
+<!-- carrusel de imagenes -->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="img img1"></div>
+      </div>
+      <div class="carousel-item">
+        <div class="img img2"></div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- layout productos -->
+
+  <div class="container contenedor-productos esquinado">
+    <div class="producto">
+      <a href="producto.html">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+    <div class="producto">
+      <a href="#">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+    <div class="producto">
+      <a href="#">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+    <div class="producto">
+      <a href="#">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+    <div class="producto">
+      <a href="#">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+    <div class="producto">
+      <a href="#">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+    <div class="producto">
+      <a href="#">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+    <div class="producto">
+      <a href="#">
+        <img src="/build/img/3.webp" alt="Producto">
+        <div class="precio-nombre">
+          <p class="nombre"> Producto</p>
+          <p class="precio">$123.45</p>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- 2do Banner -->
+  <div id="carouselExampleCaptions" class="carousel slide container esquinado elemento" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner esquinado ">
+        <div class="carousel-item active caja ">
+          <!-- <img src="/build/img/grafico1.webp" class="d-block w-100 .img-fluid" alt="..."> -->
+          <div class="img img3"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <img src="build/img/grafico2.webp" class="d-block w-100" alt="..."> -->
+          <div class="img img4"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+  <footer class="footer ">
+    <div class="contenedor contenedor-footer">
+      <nav class="menú">
+         <ul>
+            <li><a href="#">Comprar</a> </li>
+            <li><a href="#">Vender</a> </li>
+            <li><a href="#">Deliverys</a> </li>
+            <li><a href="#">Inicio</a> </li>
+
+          </ul>
+      </nav>
+    </div>
+    <p class="copyright">Todos los Derechos Reservados 2021 &copy;</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
