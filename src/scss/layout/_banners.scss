@@ -1,0 +1,25 @@
+.carousel-inner{
+    padding: 0;
+}
+.img{
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: visible;
+    @include tablet{
+        height: 30rem;
+    }
+}
+.img1{
+    background-image: url(../img/banner1.webp);
+}
+.img2{
+    background-image: url(../img/banner2.webp);
+}
+.img3{
+    background-image: url(../img/grafico1.webp);
+}
+.img4{
+    background-image: url(../img/grafico2.webp);
+}

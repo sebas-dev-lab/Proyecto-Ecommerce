@@ -1,0 +1,31 @@
+.footer{
+    margin-top: .75rem;
+    background-color: #291717;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    p{
+        text-align: center;
+        color: rgb(170, 145, 145);
+        margin: 0;
+        padding-bottom: 1rem;
+        font-size: 1.7rem;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(170, 145, 145);
+        &:hover{
+            color: rgb(255, 196, 118);
+        }
+    }
+    ul{
+        
+        list-style: none;
+        padding: 1rem;
+        margin: auto;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}

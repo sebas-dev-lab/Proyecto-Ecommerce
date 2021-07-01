@@ -1,0 +1,32 @@
+.contenedor-producto{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 5rem;
+    gap: 2rem;
+    .imagen-producto {
+        flex-basis: calc(50%);
+        border: 1px solid black;
+    }
+    .detalles{
+        flex-basis: calc(50%);
+
+        text-align: center;
+        @include grid-filas(2, 2rem)
+
+    }
+    .detalles-1{
+        border-bottom: .2px solid black;
+        .precio{
+            font-size: 3rem;
+            color: rgb(74, 148, 0);
+        }
+    }
+    .detalles-2{
+        p{
+            font-size: 1.4rem;
+        }
+
+        text-align: left;
+    }
+}
